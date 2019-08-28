@@ -4,7 +4,7 @@ Initialize and run the app: `npm install && npm start`.
 
 ## Overview
 
-You should see some Jest tests. There are three suites of tests, one for each module (`dates`, `numbers`, `strings`). Each test suite contains three individual tests. The goal of this excercise is to make all of the tests pass. You can examine this repo in the following ways:
+You should see some Jest tests. There are three suites of tests, one for each module (`dates`, `numbers`, `strings`). Each test suite contains three individual tests. The goal of this exercise is to make all of the tests pass. You can examine this repo in the following ways:
 
 * Look in `test/index.test.js`
 
