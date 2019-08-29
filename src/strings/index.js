@@ -18,3 +18,15 @@ module.exports = {
   pairs,
   reverse
 }
+
+// * Split
+//   * Split a string on a given delimiter and return the resulting array
+//   * Hint: split
+
+// * Pairs
+//   * Break a string into pairs of two characters each. Return the array of pairs
+//   * Hint: For loop, increment by 2
+
+// * Reverse
+//   * Reverse the characters in a given string
+//   * Hint: split, reverse, join
