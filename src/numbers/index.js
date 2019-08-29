@@ -1,20 +1,21 @@
-const isEven = (num) => {
-  // write code for numbers.isEven
+const isEven = num => {
+  if (num % 2 === 0) {
+    return true;
+  }
+};
 
-}
-
-const sum = (arr) => {
-  // write code for numbers.sum
-
-}
+const sum = arr => {
+  let total = arr.reduce((a, b) => a + b);
+  return total;
+};
 
 const comboSum = (arr, sum) => {
-  // write code for numbers.comboSum
-
-}
+  let total = arr.reduce((a, b) => a + b);
+  return total === sum;
+};
 
 module.exports = {
   isEven,
   sum,
   comboSum
-}
+};

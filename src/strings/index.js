@@ -1,20 +1,23 @@
 const split = (str, delim) => {
-  // write code for strings.split
+  let test = str.split(delim);
+  return test;
+};
 
-}
+const pairs = str => {
+  let test = str.match(/(..?)/g);
+  return test;
+};
 
-const pairs = (str) => {
-  // write code for strings.pairs
-
-}
-
-const reverse = (str) => {
-  // write code for strings.reverse
-
-}
+const reverse = str => {
+  let test = str
+    .split("")
+    .reverse()
+    .join("");
+  return test;
+};
 
 module.exports = {
   split,
   pairs,
   reverse
-}
+};
