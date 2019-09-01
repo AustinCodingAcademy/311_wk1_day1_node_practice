@@ -1,17 +1,21 @@
 const isEven = (num) => {
   // write code for numbers.isEven
-    return num % 2 ===0;
+    return num % 2 === 0;
 }
 
-const sum = (a,b) => {
+const sum = arr => {
   // write code for numbers.sum
-  a + b
-    return sum (numbers.reduce(add))
+    return arr.reduce((acc,cur) => acc + cur);
 }
 
 const comboSum = (arr, sum) => {
   // write code for numbers.comboSum
-    // let
+    const array2 = arr.reduce((acc,cur) => acc + cur);
+    if (array2 === sum) {
+      return true;
+    } else {
+      return false;
+    }
 }
 
 module.exports = {
