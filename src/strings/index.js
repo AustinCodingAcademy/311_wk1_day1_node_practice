@@ -5,10 +5,19 @@ const split = (str, delim) => {
 
 const pairs = (str) => {
   // write code for strings.pairs
-    for (var i = 0, pairs = str.length; i < pairs; i += 2) {
-      return str.push(pairs.slice(i, i + 2 ).join(""));
-    }
+  let strArr = Array.from(str)
+  let pairs = []
+  for (let i = 0; i < strArr.length; i+=2) {
+    // console.log(index)
+    let element = strArr[i]
+    let chunks = [element, strArr[i + 1]]
+    let joinedChunks = chunks.join('')
+   // console.log(joinedChunks)
+    pairs.push(joinedChunks)
+  }
+  return pairs
 }
+ 
 
 const reverse = (str) => {
   // write code for strings.reverse
