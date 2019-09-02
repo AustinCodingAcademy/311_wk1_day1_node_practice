@@ -3,7 +3,7 @@ const moment = require('moment')
 
 const today = () => {
   // write code for dates.today
-  return moment(new date()).format("dddd")
+  return moment(new Date()).format('dddd')
 }
 
 const calendar = () => {
