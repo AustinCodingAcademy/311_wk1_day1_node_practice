@@ -1,9 +1,10 @@
-const numbers = require('./numbers')
-const strings = require('./strings')
-const dates = require('./dates')
+// Node practice.
+const numbers = require("./numbers");
+const strings = require("./strings");
+const dates = require("./dates");
 
 module.exports = {
-  numbers,
-  strings,
-  dates
-}
+	numbers,
+	strings,
+	dates
+};
