@@ -13,7 +13,8 @@ const calendar = () => {
 }
 
 const currentTime = () => {
-  // write code for dates.currentTime
+  let time = moment().format('hh:mm:ss A');
+  return time;
 }
 
 module.exports = {
