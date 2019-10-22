@@ -11,11 +11,12 @@ const sum = (arr) => {
 }
 
 const comboSum = (arr, sum) => {
-  let total = arr.reduce((acc, val) => acc + val);
-  if (total === sum) {
-    return true
-  } else {
-    return false;
+  for (let i = 0; i < arr.length; i++) {
+    if(arr[i] + arr.indexOf(i) === sum) {
+      return true;
+    } else {
+      return false;
+    }
   }
 
 }
