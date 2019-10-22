@@ -1,21 +1,26 @@
 var moment = require('moment');
-moment().format();
-console.log(moment)
+// const day = moment().format('dddd')
+// console.log(day)
 
 const today = () => {
-  // write code for dates.today
-
+  return moment().format('dddd')
 }
 
 const calendar = () => {
-  // write code for dates.calendar
-
+  return moment().format('MMM D, YYYY')
 }
+console.log(calendar())
 
 const currentTime = () => {
-  // write code for dates.currentTime
-
+  return moment().format('h:mm:ss A')
 }
+console.log(currentTime())
+
+/**
+ * Return today's date in the format: May 29, 2019 (2ms)
+    × Return the current time in the format: 03:21:51 PM
+ */
+
 
 module.exports = {
   today,
