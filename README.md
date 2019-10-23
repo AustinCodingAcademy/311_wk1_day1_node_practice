@@ -1,6 +1,6 @@
 ## Setup
 
-Initialize and run the app: `npm install && npm start`.
+Initialize and run the app: `sdfdssdfsdfsdfdsfnpm install && npm start`.
 
 ## Overview
 
