@@ -1,5 +1,4 @@
 const isEven = (num) => {
-  // write code for numbers.isEven
 
 }
 
