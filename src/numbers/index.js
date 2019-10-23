@@ -1,5 +1,9 @@
 const isEven = (num) => {
-  return num % 2 === 0
+  if(num % 2 === 0){
+    return true 
+  }else {
+    return false
+  }
 }
 
 const sum = (arr) => {
@@ -7,15 +11,14 @@ const sum = (arr) => {
   let totalSum = 0;
   for (let i = 0; i < arr.length; i++){
     totalSum += arr[i]
-    console.log(totalSum)
   }
   return totalSum
 }
 
 const comboSum = (arr, sum) => {
-  let findSum = arr.reduce(function(accumulator, currentValue){
-    return accumulator + currentValue
-  }, 0)
+  let findSum = arr.reduce(function(startingValue, nextValue){
+    return startingValue + nextValue
+  })
   
   if(findSum === sum){
     return true;
