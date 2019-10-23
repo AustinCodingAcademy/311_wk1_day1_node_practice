@@ -12,7 +12,7 @@ const calendar = () => {
 console.log(calendar())
 
 const currentTime = () => {
-  return moment().format('h:mm:ss A')
+  return moment().format('hh:mm:ss A')
 }
 console.log(currentTime())
 
