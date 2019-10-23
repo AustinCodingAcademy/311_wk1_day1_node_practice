@@ -1,5 +1,5 @@
 const isEven = (num) => {
-
+  return num ( x & 1 ) ? "odd" : "even";
 }
 
 const sum = (arr) => {

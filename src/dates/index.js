@@ -1,32 +1,18 @@
 // import moment here; use this package in each function
+const moment = require("moment")
 
 const today = () => {
-//   var today = new Date();
-// var dd = today.getDate();
-
-// var mm = today.getMonth()+1; 
-// var yyyy = today.getFullYear();
-// if(dd<10) 
-// {
-//     dd='0'+dd;
-// } 
-
-// if(mm<10) 
-// {
-//     mm='0'+mm;
-// } 
-// today = mm+'-'+dd+'-'+yyyy;
-// console.log(today);
+  return  moment().format('dddd'); 
 
 }
 
 const calendar = () => {
-  // write code for dates.calendar
+ return moment().format("MMM DD, YYYY");
 
 }
 
 const currentTime = () => {
-  // write code for dates.currentTime
+  return moment().format('LTS');
 
 }
 
