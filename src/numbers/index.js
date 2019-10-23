@@ -1,15 +1,26 @@
 const isEven = (num) => {
-  return num ( x & 1 ) ? "odd" : "even";
+  if(num % 2 === 0){
+    return true
+  }
+  else{ return false}
 }
 
-const sum = (arr) => {
-  // write code for numbers.sum
+const sum = arr => arr.reduce((acc, cur) => acc + cur)
+//   var total = 0
+//   arr.forEach(num => {
+//     total += num
+//   });
+// return total
+// console.log(array1.reduce(reducer));
 
-}
+
+
 
 const comboSum = (arr, sum) => {
-  // write code for numbers.comboSum
 
+
+  // make total === sum
+  return total of the array === sum
 }
 
 module.exports = {
