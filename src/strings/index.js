@@ -6,16 +6,16 @@ const split = (str, delim) => {
 
 const pairs = (str) => {
   // write code for strings.pairs
-
+let arrPair = str.match(/.{1,2}/g)
+return arrPair
 }
 
 const reverse = (str) => {
   // write code for strings.reverse
-  let reversedStr = "";    
-  for (let i = str.length - 1; i >= 0; i--){        
-    reversedStr += str[i];
-  }    
-  return reversedStr;
+  let splitStr = str.split("")
+  let revStr = splitStr.reverse()
+  let reversedStr = revStr.join("")
+  return reversedStr
 }
 
 
