@@ -17,10 +17,17 @@ const sum = arr => arr.reduce((acc, cur) => acc + cur)
 
 
 const comboSum = (arr, sum) => {
+  let match = false
+  for (let i = 0; i<arr.length; i++){
+  for (let j = i + 1; j<arr.length; j++){
+  if (arr[i]+arr[j] === sum){
+  match = true
+  }
+  }
+  }
+  return match
 
-
-  // make total === sum
-  return total of the array === sum
+ 
 }
 
 module.exports = {
