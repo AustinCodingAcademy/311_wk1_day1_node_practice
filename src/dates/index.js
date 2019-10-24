@@ -12,7 +12,7 @@ const calendar = () => {
 }
 
 const currentTime = () => {
-  return moment().format('LTS');
+  return moment().format('hh:mm:ss A');
 
 }
 
