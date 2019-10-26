@@ -9,7 +9,9 @@ const pairs = (str) => {
 }
 
 const reverse = (str) => {
-  // write code for strings.reverse
+  let s = str.split('');
+  let r = s.reverse('');
+  return r.join('');
 
 }
 
