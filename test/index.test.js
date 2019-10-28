@@ -10,7 +10,7 @@ describe('Numbers module', () => {
   test('Add multiple numbers', () => {
     const sum = numbers.sum([1, 2, 3, 4, 5, 6])
     expect(sum).toEqual(21)
-  })
+  }) 
 
   test('Determine if any combination equals a given sum', () => {
     const exists = numbers.comboSum([1, 3, 6, 2, 9], 14)

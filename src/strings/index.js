@@ -1,8 +1,12 @@
 const split = (str, delim) => {
   // write code for strings.split
+let str = ('');
+let splitted = str.split(" ", str.length);
+return splitted
 
 }
 
+split(str)
 const pairs = (str) => {
   // write code for strings.pairs
 
