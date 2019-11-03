@@ -1,10 +1,14 @@
 const isEven = (num) => {
-  // write code for numbers.isEven
+  if(num % 2 === 0){
+    return true
+  }
 
 }
 
 const sum = (arr) => {
-  // write code for numbers.sum
+ return arr.reduce((acc, elem) => {
+   return acc + elem;
+}, 0)
 
 }
 
