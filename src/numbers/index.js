@@ -14,20 +14,15 @@ if(!Array.isArray(arr)) return;
   return totalNumber;
 }
 
+let test = [1, 2, 3, 8, 21]
 const comboSum = (arr, sum) => {
-  // write code for numbers.comboSum
-  let newNum = 0;
-  for (let i=0; i<arr.length; i++) {
-    for (let j=0; j<arr.length; j++) {
-      if (i !== j) {
-        newNum = arr[i]+arr[j]
-      }
-      if (newNum === sum) {
-        return true
-      } else return false
-    }
+    // write code for numbers.comboSum
+for (let i=0; i<arr.length; i++) {
+  for (let j=0; j<arr.length; j++) {
+    } return false
   }
 }
+console.log(comboSum(test, 10))
 
 
 
