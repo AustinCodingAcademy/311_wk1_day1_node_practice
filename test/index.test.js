@@ -1,5 +1,4 @@
 const { numbers, strings, dates } = require('../src')
-
 describe('Numbers module', () => {
 
   test('Check if a given number is even or odd', () => {
