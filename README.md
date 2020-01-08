@@ -18,7 +18,7 @@ You should see some Jest tests. There are three suites of tests, one for each mo
 
   * Write your code below the comment in each function
 
-The modules will be broken down below:
+The omodules will be broken dwn below:
 
 
 ## Numbers
