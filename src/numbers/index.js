@@ -5,6 +5,7 @@ const isEven = (num) => {
 }
 
 const sum = (arr) => {
+  // write code for numbers.sum
   
 }
 
