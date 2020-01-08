@@ -1,11 +1,11 @@
 const isEven = (num) => {
-  // write code for numbers.isEven
-
+  if(num % 2 === 0) {
+    return true
+  }
 }
 
 const sum = (arr) => {
-  // write code for numbers.sum
-
+  
 }
 
 const comboSum = (arr, sum) => {
