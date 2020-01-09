@@ -5,13 +5,15 @@ const isEven = (num) => {
 }
 
 const sum = (arr) => {
-  return arr.reduce()
+  const accumulatorFunc = (accumulator, currentValue) => {
+    return accumulator + currentValue;
+  }
+  return arr.reduce(accumulatorFunc, 0);
 }
-  
 
-const comboSum = (arr, sum) => {
-  // write code for numbers.comboSum
-
+const comboSum = (arr, num) => {
+  const sumOfArray = sum(arr)
+  return sumOfArray == num
 }
 
 module.exports = {

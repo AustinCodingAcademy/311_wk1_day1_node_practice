@@ -12,10 +12,15 @@ describe('Numbers module', () => {
     expect(sum).toEqual(21)
   })
 
-  test('Determine if any combination equals a given sum', () => {
+  test('Determine if total sum of the array equals a given number', () => {
     const exists = numbers.comboSum([1, 3, 6, 2, 9], 14)
     expect(exists).toBe(false)
+
+    const exists2 = numbers.comboSum([1, 3, 6, 3, 1], 14)
+    expect(exists2).toBe(true)
   })
+
+
 
 })
 
