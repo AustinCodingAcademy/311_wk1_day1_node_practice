@@ -5,9 +5,9 @@ const isEven = (num) => {
 }
 
 const sum = (arr) => {
-  // write code for numbers.sum
-  
+  return arr.reduce()
 }
+  
 
 const comboSum = (arr, sum) => {
   // write code for numbers.comboSum
