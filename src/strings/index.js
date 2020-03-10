@@ -1,16 +1,25 @@
 const split = (str, delim) => {
-  // write code for strings.split
-
+  return str.split(delim);
 }
 
 const pairs = (str) => {
-  // write code for strings.pairs
-
+  let arrayOfPairs = [];
+  for (let i = 0; i < str.length; i += 2) {
+    let firstChar = str[i];
+    let secondChar;
+    if (str[i + 1]) {
+      secondChar = str[i + 1];
+    }
+    else {
+      secondChar = "";
+    }
+    arrayOfPairs.push(firstChar + secondChar);
+  }
+  return arrayOfPairs;
 }
 
 const reverse = (str) => {
-  // write code for strings.reverse
-
+  return str.split('').reverse().join("");
 }
 
 module.exports = {
