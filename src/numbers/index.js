@@ -6,14 +6,14 @@ const isEven = (num) => {
     return false
 }
 
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
 const sum = (arr) => {
-  let reducer = (accumulator, currentValue) => accumulator + currentValue;
   return arr.reduce(reducer)
 }
 
 const comboSum = (arr, sum) => {
   // write code for numbers.comboSum
-  const reducer = (accumulator, currentValue) => accumulator + currentValue;
   const arrSum = arr.reduce(reducer);
 
   if (arrSum === sum)
