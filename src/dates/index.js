@@ -20,7 +20,14 @@ const calendar = () => {
 
 const currentTime = () => {
   // write code for dates.currentTime
-
+  let today = new Date()
+  let time = today.toLocaleTimeString()
+  
+  if (time[0] != 0) {
+    return `0${time}`
+  } else {
+    return time
+  }
 }
 
 module.exports = {
