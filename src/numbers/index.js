@@ -8,6 +8,7 @@ const isEven = (num) => {
 
 }
 
+
 const sum = (arr) => {
   // write code for numbers.sum
   let total = 0;
@@ -16,6 +17,7 @@ const sum = (arr) => {
   }
   return total;
 }
+
 
 const comboSum = (arr, sum) => {
   // write code for numbers.comboSum
