@@ -12,6 +12,7 @@ const calendar = () => {
 
 const currentTime = () => {
   // write code for dates.currentTime
+  new Date().toLocaleTimeString()
 
 }
 
