@@ -12,7 +12,7 @@ const isEven = (num) => {
 const sum = (arr) => {
   // write code for numbers.sum
   let total = 0;
-  for (i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     total += arr[i];
   }
   return total;
@@ -23,7 +23,7 @@ const comboSum = (arr, sum) => {
   // write code for numbers.comboSum
   //find the total of array
   let total = 0;
-  for (i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     total += arr[i];
   }
   //check if equal to sum
