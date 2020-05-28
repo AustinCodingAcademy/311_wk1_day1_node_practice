@@ -23,7 +23,6 @@ const comboSum = (arr, num) => {
   } else if(sum(smaller) < num || sum(smaller) > num) {
     return false
   }
-//still needs more work on this side
 }
 
 module.exports = {
