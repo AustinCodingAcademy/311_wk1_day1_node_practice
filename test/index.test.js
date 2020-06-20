@@ -6,14 +6,29 @@ describe("Numbers module", () => {
     expect(isEven).toBe(true);
   });
 
+  test("Check if a given number is even or odd 2", () => {
+    const isEven = numbers.isEven(29383);
+    expect(isEven).toBe(false);
+  });
+
   test("Add multiple numbers", () => {
     const sum = numbers.sum([1, 2, 3, 4, 5, 6]);
     expect(sum).toEqual(21);
   });
 
+  test("Add multiple numbers 2", () => {
+    const sum = numbers.sum([1, 2, 3, 4, 5, 5]);
+    expect(sum).toEqual(20);
+  });
+
   test("Determine if any combination equals a given sum", () => {
     const exists = numbers.comboSum([1, 3, 6, 2, 9], 14);
     expect(exists).toBe(false);
+  });
+
+  test("Determine if any combination equals a given sum 2", () => {
+    const exists = numbers.comboSum([1, 3, 6, 2, 9], 21);
+    expect(exists).toBe(true);
   });
 });
 
@@ -24,6 +39,14 @@ describe("Strings module", () => {
     expect(split[0]).toBe("a");
     expect(split[1]).toBe("new");
     expect(split[2]).toBe("string");
+  });
+
+  test("Split a string on the given delimeter 2", () => {
+    const split = strings.split("itsa-news-stringa", "-");
+    expect(split.length).toEqual(3);
+    expect(split[0]).toBe("itsa");
+    expect(split[1]).toBe("news");
+    expect(split[2]).toBe("stringa");
   });
 
   test("Break a string into pairs", () => {
@@ -41,7 +64,15 @@ describe("Strings module", () => {
 
 describe("Dates module", () => {
   test("Return today's day - ex. Monday", () => {
-    const weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+    const weekdays = [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday",
+    ];
 
     const day = dates.today();
     expect(weekdays).toContain(day);
