@@ -12,7 +12,7 @@ You should see some Jest tests. There are three suites of tests, one for each mo
 
   * The `test` functions describe the tests in question.. including a description of what the function should be doing
 
-* Look at the the `dates`, `numbers` and `strings` folders
+* Look at the `dates`, `numbers` and `strings` folders
 
   * These are your module folders. Each function in the module should correspond with one test function in `test/index.test.js`
 
@@ -74,4 +74,4 @@ The modules will be broken down below:
 
 ## Final thoughts 
 
-You're app should have all of it's tests passing. Take a moment to reflect on your Node/NPM capabilities and begin pre-work for next class
+Your app should have all of its tests passing. Take a moment to reflect on your Node/NPM capabilities and begin pre-work for next class
