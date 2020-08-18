@@ -1,6 +1,7 @@
 const split = (str, delim) => {
   // write code for strings.split
-
+   result = str.split(delim)
+  return result
 }
 
 const pairs = (str) => {
