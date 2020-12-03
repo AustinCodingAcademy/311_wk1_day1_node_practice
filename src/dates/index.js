@@ -9,7 +9,7 @@ const today = () => {
 
 const calendar = () => {
   // write code for dates.calendar
-  return moment().format("MMM D, yyyy")
+  return moment().format("MMM DD, yyyy")
 }
 
 const currentTime = () => {
