@@ -20,7 +20,6 @@ const split = (str, delim) => {
       arr.push(str.slice(start))
     }
   }
-  
   return arr
 }
 
@@ -31,7 +30,6 @@ const pairs = (str) => {
   for (let i = 0; i < str.length; i = i + 2) {
     pair.push(str.slice(i, i + 2))
   }
-
   return pair
 }
 
