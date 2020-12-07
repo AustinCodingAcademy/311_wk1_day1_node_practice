@@ -17,7 +17,15 @@ const sum = (arr) => {
 
 const comboSum = (arr, sum) => {
   // write code for numbers.comboSum
-  
+  for(let index = 0; index<arr.length; index++){
+    for(let index2 = 0; index2<arr.length; index2++){
+      if(arr[index] + arr[index2 == sum]){
+        return true
+      } else {
+        return false
+      }
+    }
+  }
 
 
 }
