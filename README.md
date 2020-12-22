@@ -56,8 +56,8 @@ The modules will be broken down below:
 ## Dates
 
 * Complete the following functions in `dates/index.js`:
-* Make sure to import `moment` at the top of the file
-* Refer to the moment.js docs: https://momentjs.com/docs/
+> Make sure to import `moment` at the top of the file  
+> Refer to the moment.js docs: https://momentjs.com/docs/
 
 * Today
   * Return the name of current day. Ex. Monday, Tuesday, etc.
@@ -74,4 +74,4 @@ The modules will be broken down below:
 
 ## Final thoughts 
 
-You're app should have all of it's tests passing. Take a moment to reflect on your Node/NPM capabilities and begin pre-work for next class
+Your app should have all of its tests passing. Take a moment to reflect on your Node/NPM capabilities and begin pre-work for next class
