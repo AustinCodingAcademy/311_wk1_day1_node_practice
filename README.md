@@ -38,7 +38,7 @@ The modules will be broken down below:
   * Hint: Loop in loop OR indexOf for diff
 
 ## Strings
-
+ 
 * Complete the following functions in `strings/index.js`:
 
 * Split
