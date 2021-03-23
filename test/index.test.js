@@ -1,7 +1,7 @@
 const { numbers, strings, dates } = require('../src')
 
 describe('Numbers module', () => {
-
+//all the functions are just being exported as methods
   test('Check if a given number is even or odd', () => {
     const isEven = numbers.isEven(29384)
     expect(isEven).toBe(true)
@@ -51,7 +51,9 @@ describe('Dates module', () => {
       'Tuesday',
       'Wednesday',
       'Thursday',
-      'Friday'
+      'Friday',
+      'Saturday',
+      'Sunday'
     ]
 
     const day = dates.today()
