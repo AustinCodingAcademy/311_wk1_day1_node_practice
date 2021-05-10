@@ -16,8 +16,9 @@ const calendar = () => {
 
 const currentTime = () => {
   // write code for dates.currentTime
-  let time = moment().format('LTS')
-  return time
+  // let time = moment().format('LTS')
+  // return time
+  return moment().format('hh:mm:ss A')
 }
 
 module.exports = {
