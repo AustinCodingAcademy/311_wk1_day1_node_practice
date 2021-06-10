@@ -5,6 +5,7 @@ describe('Numbers module', () => {
   test('Check if a given number is even or odd', () => {
     const isEven = numbers.isEven(29384)
     expect(isEven).toBe(true)
+
   })
 
   test('Add multiple numbers', () => {
