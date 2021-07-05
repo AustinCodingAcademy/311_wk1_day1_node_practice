@@ -1,16 +1,19 @@
 const isEven = (num) => {
-  // write code for numbers.isEven
-
+  if(num % 2 === 0) {
+    return true
+  }
 }
 
 const sum = (arr) => {
-  // write code for numbers.sum
-
+  const accumulatorFunc = (accumulator, currentValue) => {
+    return accumulator + currentValue;
+  }
+  return arr.reduce(accumulatorFunc, 0);
 }
 
-const comboSum = (arr, sum) => {
-  // write code for numbers.comboSum
-
+const comboSum = (arr, num) => {
+  const sumOfArray = sum(arr)
+  return sumOfArray == num
 }
 
 module.exports = {
