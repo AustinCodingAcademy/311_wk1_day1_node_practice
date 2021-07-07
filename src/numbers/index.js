@@ -1,20 +1,35 @@
 const isEven = (num) => {
-  // write code for numbers.isEven
-
-}
+	if (num % 2 === 0) {
+		return true;
+	}
+};
 
 const sum = (arr) => {
-  // write code for numbers.sum
+	let x = 0;
+	// write code for numbers.sum
+	for (let i = 0; i < arr.length; i++) {
+		x += arr[i];
+	}
+	return x;
+};
 
-}
-
-const comboSum = (arr, sum) => {
-  // write code for numbers.comboSum
-
-}
+const comboSum = (arr, target) => {
+	// write code for numbers.comboSum
+	// [1, 3, 6, 2, 9], 14]
+	for (let i = 0; i < arr.length; i++) {
+		for (let j = i + 1; j < arr.length; j++) {
+			for (let k = j + 2; k < arr.length; k++) {
+				if (arr[i] + arr[j] + arr[k] === target) {
+					return true;
+				} else return false;
+			}
+		}
+	}
+};
+console.log(comboSum([1, 3, 6, 2, 9], 14));
 
 module.exports = {
-  isEven,
-  sum,
-  comboSum
-}
+	isEven,
+	sum,
+	comboSum
+};
