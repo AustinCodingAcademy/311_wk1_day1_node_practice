@@ -4,11 +4,13 @@ const moment = require('moment');
 const today = () => {
   // write code for dates.today
   const weekdays = [
+    'Sunday',
     'Monday',
     'Tuesday',
     'Wednesday',
     'Thursday',
-    'Friday'
+    'Friday',
+    'Saturday'
   ]
   var today = new Date();
     const day=today.getDay();

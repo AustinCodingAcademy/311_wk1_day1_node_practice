@@ -47,11 +47,13 @@ describe('Dates module', () => {
 
   test('Return today\'s day - ex. Monday', () => {
     const weekdays = [
+      'Sunday',
       'Monday',
       'Tuesday',
       'Wednesday',
       'Thursday',
-      'Friday'
+      'Friday',
+      'Saturday'
     ]
 
     const day = dates.today()
